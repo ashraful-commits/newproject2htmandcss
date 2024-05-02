@@ -26,7 +26,7 @@ body{
 .top-header{
 min-width: 100vw;
 height:120px;
-background-image: url("assets/img/Background.png");
+background-image: url("../img/Background.png");
 background-repeat: no-repeat;
 object-fit: cover;
 background-size: cover;
