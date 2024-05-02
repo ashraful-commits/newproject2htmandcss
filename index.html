@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Site title</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="shortcut icon" type="image/x-icon" href="#">
+
+  <!-- CSS here -->
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+  <!-- ======== Navbar Start ======== -->
+  <div class="top-header d-flex justify-content-center align-items-center">
+    <div class="container px-md-5 log_section d-flex justify-content-start align-items-center gap-5">
+      <div class="row">
+        <div class="logo_1 col-md-5 col-sm-5 w-50">
+          <img src="assets/img/Van-Mockup 1.png" alt="">
+        </div>
+        <div class="logo_2 col-md-5 col-sm-5 w-50">
+          <a href="index.html">
+
+            <img src="assets/img/Logo.png" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======== Navbar End ========== -->
+
+  <!-- ======== Hero Section Start ======== -->
+  <div class="main-section">
+    <div class="mascot">
+      <img src="assets/img/Mascote.png" alt="">
+    </div>
+    <div class="section">
+      <h1>ACOMPANHE A ENTREGA DA SUA ENCOMENDA</h1>
+
+      <div class="container section_2">
+        <div class="row section_row">
+          <div class="col-md-4 col-sm-12 sectction_col">
+            <h5>Endereço de entrega</h5>
+            <h6><span>Rua:</span>{rua}</h6>
+            <h6><span>Número:</span>{número}</h6>
+            <h6><span>Bairro:</span>{bairro}</h6>
+            <h6><span>Complemento:</span>{complemento}</h6>
+            <h6><span>CEP:</span>{cep}</h6>
+            <h6><span>Cidade / Estado:</span>{cidade | {UF}</h6>
+          </div>
+          <div class="col-md-4 col-sm-12 sectction_col">
+            <h5>Endereço de entrega
+            </h5>
+            <h6><span>Rua:</span>{rua}</h6>
+            <h6><span>Número:</span>{número}</h6>
+            <h6><span>Bairro:</span>{bairro}</h6>
+            <h6><span>Complemento:</span>{complemento}</h6>
+            <h6><span>CEP:</span>{cep}</h6>
+            <h6><span>Cidade / Estado:</span>{cidade | {UF}</h6>
+          </div>
+          <div class="col-md-4 col-sm-12 sectction_col">
+            <h5>Endereço de entrega</h5>
+            <h6><span>Rua:</span>{rua}</h6>
+            <h6><span>Número:</span>{número}</h6>
+            <h6><span>Bairro:</span>{bairro}</h6>
+            <h6><span>Complemento:</span>{complemento}</h6>
+            <h6><span>CEP:</span>{cep}</h6>
+            <h6><span>Cidade / Estado:</span>{cidade | {UF}</h6>
+          </div>
+        </div>
+      </div>
+      <div class="section_3">
+        <div class="section_3_item">
+          <div class="icon">
+            <img src="assets/img/package_2.png" alt="">
+
+          </div>
+          <h2>RASTREAMENTO DO CÓDIGO: <span>{CÓDIGO}</span></h2>
+        </div>
+        <div class="section_3_item_2">
+          <div class="icon">
+            <img src="assets/img/warehouse-svgrepo-com 1.png" alt="">
+
+          </div>
+          <div class="title_time">
+            <h2>Seu pacote foi postado | <span class="span1">{cidade-lojista}</span>.</h2>
+            <span>29/01/2023 | 19:59</span>
+          </div>
+        </div>
+        <div class="section_3_item_2">
+          <div class="icon">
+            <img src="assets/img/delivery-fast-solid-svgrepo-com 1.png" alt="">
+
+          </div>
+          <div class="title_time">
+            <h2>Objeto em transferência para unidade de tratamento.</h2>
+            <span>29/01/2023 | 19:59</span>
+          </div>
+        </div>
+
+        <div class="section_3_item_2">
+          <div class="icon">
+            <img src="assets/img/delivery-fast-solid-svgrepo-com 1.png" alt="">
+
+          </div>
+          <div class="title_time">
+            <h2>Objeto transitando entre agência e centro de distruibuição.</h2>
+            <span>29/01/2023 | 19:59</span>
+          </div>
+        </div>
+
+        <div class="section_3_item_2">
+          <div class="icon">
+            <img src="assets/img/delivery-fast-solid-svgrepo-com 1.png" alt="">
+
+          </div>
+          <div class="title_time">
+            <h2>Objeto recebido em unidade de tratamento regional.</h2>
+            <span>29/01/2023 | 19:59</span>
+          </div>
+        </div>
+
+        <div class="section_3_item_2">
+          <div class="icon">
+            <img src="assets/img/delivery-fast-solid-svgrepo-com 1.png" alt="">
+
+          </div>
+          <div class="title_time">
+            <h2>Objeto a caminho ao <span class="span1">{cidade-cliente-final}.}</span>.</h2>
+            <span>29/01/2023 | 19:59</span>
+          </div>
+        </div>
+
+        <div class="section_3_item_2">
+          <div class="icon">
+            <img src="assets/img/Shape.png" alt="">
+
+          </div>
+          <div class="title_time">
+            <h2>Objeto saiu para entrega ao <span class="span1">destinatário</span>.</h2>
+            <span>29/01/2023 | 19:59</span>
+          </div>
+        </div>
+
+        <div class="section_3_item_2">
+          <div class="icon">
+            <img src="assets/img/clipboard2-x 1.png" alt="">
+
+          </div>
+          <div class="title_time">
+            <h2 class="active">Destinatário não localizado.</h2>
+            <span>29/01/2023 | 19:59</span>
+          </div>
+        </div>
+
+        <div class="section_3_item_2">
+          <div class="icon">
+            <img src="assets/img/Shape.png" alt="">
+
+          </div>
+          <div class="title_time">
+            <h2>Objeto saiu para entrega ao <span class="span1">destinatário</span>.</h2>
+            <span>29/01/2023 | 19:59</span>
+          </div>
+        </div>
+
+        <div class="section_3_item_2">
+          <div class="icon">
+            <img src="assets/img/clipboard2-x 1.png" alt="">
+
+          </div>
+          <div class="title_time">
+            <h2 class="active">Destinatário não localizado.</h2>
+            <span>29/01/2023 | 19:59</span>
+          </div>
+        </div>
+
+
+        <div class="section_3_item_2">
+          <div class="icon">
+            <img src="assets/img/Shape.png" alt="">
+
+          </div>
+          <div class="title_time">
+            <h2>Objeto saiu para entrega ao <span class="span1">destinatário</span>.</h2>
+            <span>29/01/2023 | 19:59</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ======== Hero Section End  ========= -->
+  <footer>
+    <div class="container-fluid d-flex justify-content-center align-items-center w-100">
+      <div class="row d-flex justify-content-between align-items-center ">
+        <div class="col-md-3 col-sm-12">
+          <img src="assets/img/Logo.png" alt="">
+        </div>
+        <div class="col-md-4 col-sm-12 copy-write">
+          <p>© 2024 LOGIX PRIME. Todos os direitos reservados. </p>
+        </div>
+        <div class="col-md-5 col-sm-12 description">
+          <p>
+            Nosso objetivo é evoluir continuamente, implementando melhorias significativas em nossos serviços de entrega
+            para oferecer a melhor experiência possível.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/aos.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

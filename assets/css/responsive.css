@@ -1,0 +1,281 @@
+
+
+/* Tablet screen :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+}
+
+/* small screen :320px. */
+@media (max-width: 767px) {
+  .top-header{
+    
+  }
+  .top-header .log_section .logo_1{
+    display: flex;
+    align-items: center;
+  }
+  .top-header .log_section .logo_1 img{
+   width: 100%;
+  
+
+  }
+  .top-header .log_section .logo_2 img{
+    
+    width: 100%
+    ;
+    margin-top: 20px;
+    
+  }
+  .main-section{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin: 21px 0;
+    flex-direction: column-reverse;
+    
+    }
+    .main-section .section{
+      width: 100%;
+    min-height: 1165px;
+    top: 145px;
+    left: 366px;
+    gap: 0px;
+    border: 1px solid #FF5D04;
+    opacity: 0px;
+    border-radius: 10px;
+    }
+    .main-section .section h1{
+      width: 330px;
+    height: 32px;;
+    font-family: Space Grotesk;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 32.5px;
+    text-align: center;
+     color: #DEDEFD;
+    margin: 10px auto 50px auto;
+
+    
+    }
+    
+    .main-section .section_2 .section_row{
+      border-top: 1px solid #FF5D04;
+      border-bottom: 1px solid #FF5D04;
+    }
+    
+    .main-section .section_2 .section_row .sectction_col{
+      padding: 14px;
+    }
+    
+    .main-section .section_2 .section_row .sectction_col h5{
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 800;
+      line-height: 19.6px;
+      text-align: center;
+    color: #FC7303;  
+    }
+    .main-section .section_2 .section_row .sectction_col h6{
+      
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+    color: #FC7303;
+    }
+    .main-section .section_2 .section_row .sectction_col h6 span{
+    
+      font-family: Inter;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 19.6px;
+      text-align: left;
+    color: #E9EDF6;  
+    
+    }
+    .main-section .section_2 .section_row .sectction_col:nth-child(1){
+      border-bottom: 1px solid #FF5D04;
+      border-bottom-style: dashed;
+      padding: 14px;
+    }
+    
+    .main-section .section_2 .section_row .sectction_col:nth-child(3){
+      border-top: 1px solid #FF5D04;
+      border-top-style: dashed;
+      padding: 14px;
+    }
+    .main-section .section_3{
+      display: flex;
+     justify-content: center;
+     align-content: center;
+    width: 100%;
+
+     flex-direction: column;
+    }
+    .main-section .section_3 .section_3_item{
+      width: 95%;
+    border-radius: 10px 0px 0px 0px;
+  
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 0 10px;
+      background-color:#00252E ;
+      border-radius: 10px;
+      box-shadow: 0px 0px 14.9px 0px #033C49;
+    }
+    .main-section .section_3 .section_3_item .icon{
+      width: 30.44px;
+      height: 29.92px;
+     border-radius: 100%;
+      opacity: 0px;
+     background: #FF5D04;
+     display: flex;
+     justify-content: center;
+     align-items: center
+     
+    ;  
+    box-shadow: 0px 0px 9.2px 0px #FC730380;
+    }
+    .main-section .section_3 .section_3_item h2{
+      font-family: Space Grotesk;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30.6px;
+    color: #DEDEFD;    
+    padding-top: 5px !important;
+     
+    ;  
+    
+    
+    }
+    .main-section .section_3 .section_3_item span{
+      font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30.6px;
+    text-align: left;
+    background-color: transparent;
+    text-shadow: 0px 0px 7px 0px #FC7303B2;
+    color: #FC7303;
+    
+    
+    
+    }
+    .main-section .section_3 .section_3_item_2:nth-child(2){
+      margin-top: 7px !important;
+    }
+    .main-section .section_3 .section_3_item_2{
+      width: 95%;
+    height: auto;
+    
+    border-radius: 10px 0px 0px 0px;
+      margin: 22px auto auto auto;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      gap: 0 10px;
+      background-color:#00252E ;
+      border-radius: 10px;
+      box-shadow: 0px 0px 14.9px 0px #033C49;
+      padding-left: 22px;
+    }
+    .main-section .section_3 .section_3_item_2 .icon{
+      width: 35px;
+    height: 35px;
+    padding: 5px;
+    gap: 0px;
+    border-radius: 20px ;
+     background: #FC7303;
+     display: flex;
+     justify-content: center;
+     align-items: center
+     
+    ;  
+    box-shadow: 0px 0px 10.9px 0px #FC7303;
+    
+    }
+    .main-section .section_3 .section_3_item_2 h2{
+      font-family: Space Grotesk;
+      font-size: 14px;
+      font-weight: 700;
+    color: #FC7303;
+    margin-bottom: 0 !important;
+    
+    
+    }
+    .main-section .section_3 .section_3_item_2 h2.active{
+      font-family: Space Grotesk;
+      font-size: 19px;
+      font-weight: 700;
+    color: #DC3545;
+    margin-bottom: 0 !important;
+    
+    
+    }
+    .main-section .section_3 .section_3_item_2 span{
+      font-family: Inter;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 22.1px;
+      text-align: left;
+    color: #AAAAAA;
+    }
+    .main-section .section_3 .section_3_item_2 span1{
+    font-family: Space Grotesk;
+    font-size: 19px;
+    font-weight: 700;
+    text-align: left;
+    color:#DEDEFD;
+    }
+    .main-section .mascot{
+      position: relative;
+      
+    
+    }
+    .main-section .mascot img{
+      width: 200px;
+      height: 512px;
+     
+      
+    
+    }
+    footer{
+    width:100%;
+    height:auto;
+    border-top: 0.5px solid #FF5D04;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+    }
+    footer img{
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    margin-left: 70px !important;
+    }
+    footer .copy-write p{
+      font-family: Space Grotesk;
+      font-size: 12px;
+      font-weight: 500;
+      line-height: 15px;
+      letter-spacing: 0.02em;
+      text-align: center;
+      color: #EDF0F3;
+    
+    }
+    footer  p{
+      font-family: Space Grotesk;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    color: #EDF0F3;
+    
+    }
+}
